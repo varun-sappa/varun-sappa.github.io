@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
     <title>Document</title>
@@ -14,23 +15,17 @@
    <div class="header_area" id="head">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Menu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+         <img src="assets/Copy of Copy of Team Ascendoz - SSCBS.png" alt="" height="150px" width="200px">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Helpline</a>
+                <a class="nav-link" href="#">Help desk</a>
               </li>
-              <li class="nav-item dropdown">
-                
-                
-              </li>
-             
+              
+              
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -54,46 +49,105 @@
       <div class="profile__image"><img src="assets/clinical.jpg" alt="Doggo"/></div>
       <div class="profile__info">
         <h3>Clinical</h3>
-        <p class="profile__info__extra">This dropdown has clinical departments</p>
+        <p class="profile__info__extra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nulla porro assumenda sit voluptatum! Enim, quasi. Itaque, aliquam! A dolore ut adipisci nobis rem voluptates, repudiandae temporibus ipsa consequatur eum.</p>
       </div>
      
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-         Clinical
-        </button>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-          <li><a class="dropdown-item active btn"  href="alert.html" >Anaesthesiology</a></li>
-          <li><a class="dropdown-item" href="alert.html">Dental</a></li>
-          <li><a class="dropdown-item" href="alert.html">Dermatology</a></li>
-          <li><a class="dropdown-item" href="alert.html">Emergency</a></li>
-          <li><a class="dropdown-item" href="alert.html">ENT</a></li>
-          <li><a class="dropdown-item" href="alert.html">Medical</a></li>
-          <li><a class="dropdown-item" href="alert.html">Nuclear medicine</a></li>
-          <li><a class="dropdown-item" href="alert.html">Obgyn</a></li>
-          <li><a class="dropdown-item" href="alert.html">Opthalmology</a></li>
-          <li><a class="dropdown-item" href="alert.html">Orthopaedics</a></li>
-          <li><a class="dropdown-item" href="alert.html">Paediatrics</a></li>
-          <li><a class="dropdown-item" href="alert.html">Radiology</a></li>
-          <li><a class="dropdown-item" href="alert.html">Surgery</a></li>   
-          <li><a class="dropdown-item" href="alert.html">Transfusion</a></li>
-          
-          
-           </ul>
+      <div class="dropdown1">
+        
+
+           <button class="dropdown-toggle" type="button" id="dropdownMenuButton2" >
+            Clinical
+           </button>
+           <ul class="test show" id="test">
+            <li  ><a class="dropdown-item" href="alert.html">Nuclear medicine</a></li>
+            <li><a class="dropdown-item" href="alert.html">Obgyn</a></li>
+            <li><a class="dropdown-item" href="alert.html">Opthalmology</a></li>
+            <li>
+              <div class="sub-drop-down" id="drop">
+                <a class="dropdown-item"  href="alert.html">Medicine</a> 
+                <i class="bi bi-caret-down-fill" id="test"></i>
+              </div>
+             
+              <ul class="dropdown-item-test " id="test2">
+                <li><a href="alert.html">ENDOCRINOLOGY</a></li>
+                <li><a href="alert.html">HEMATOlOGY</a></li>
+                <li><a href="alert.html">HEPATOLOGY</a></li>
+                <li><a href="alert.html">IMMUNOLOGY</a></li>
+                <li><a href="alert.html">INFECTIOUS DISEASES</a></li>
+                <li><a href="alert.html">NEPHROLOGY</a></li>
+                <li><a href="alert.html">NEUROLOGY</a></li>
+                <li><a href="alert.html">ONCOLOGY</a></li>
+                <li><a href="alert.html">PULMONARY MEDLINE</a></li>
+                <li><a href="alert.html">RHEUMATOLOGY</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a class="dropdown-item" href="alert.html">Orthopaedics</a></li>
+           <li>
+            <div class="sub-drop-down" id="drop">
+              <a class="dropdown-item"  href="alert.html">Paediatrics</a> 
+              <i class="bi bi-caret-down-fill" id="test"></i>
+            </div>
+           
+            <ul class="dropdown-item-test " id="test2">
+              <li><a href="alert.html">GENERAL</a></li>
+              <li><a href="alert.html">CARDIOLOGY</a></li>
+              <li><a href="alert.html">CTVS GASTROENTEROLOGY</a></li>
+              <li><a href="alert.html">NEONATOLOGY</a></li>
+              <li><a href="alert.html">SURGERY</a></li>
+              </ul>
+           </li>
+           <li>
+            <div class="sub-drop-down" id="drop">
+              <a class="dropdown-item"  href="alert.html">Radiology</a> 
+              <i class="bi bi-caret-down-fill" id="test"></i>
+            </div>
+           
+            <ul class="dropdown-item-test " id="test2">
+              <li><a href="alert.html">NTERVENTIONAL RADIOLOGY</a></li>
+              <li><a href="alert.html">NEURO RADIOLOGY</a></li>
+              <li><a href="alert.html">RADIODIAGNOSIS</a></li>
+            </ul>
+           </li>
+           <li>
+            <div class="sub-drop-down" id="drop">
+              <a class="dropdown-item"  href="alert.html">Surgery</a> 
+              <i class="bi bi-caret-down-fill" id="test"></i>
+            </div>
+           
+            <ul class="dropdown-item-test " id="test2">
+              <li><a href="alert.html">GENERAL</a></li>
+              <li><a href="alert.html">CTVS</a></li>
+              <li><a href="alert.html">ENDOCRINE</a></li>
+              <li><a href="alert.html">HEAD & NECK</a></li>
+              <li><a href="alert.html">HEPATOPANINEATTO BILLIARY</a></li>
+              <li><a href="alert.html">NEUROSURGERY</a></li>
+              <li><a href="alert.html">PAEDIATRIC TUS</a></li>
+              <li><a href="alert.html">PAEDIATRIC SURGERY</a></li>
+              <li><a href="alert.html">Plas & RECONSTRUCTIVE</a></li>
+              <li><a href="alert.html">SURGICAL GASTROENTEROLOGY</a></li>
+
+
+            </ul>
+           </li>   
+            <li class ="test show"><a class="dropdown-item" href="alert.html">Transfusion</a></li>
+          </ul>
       </div>
     </div>
     <div class="profile">
       <div class="profile__image"><img src="assets/para-clinical.jpg" alt="Doggo"/></div>
       <div class="profile__info">
         <h3>Para-Clinical</h3>
-        <p class="profile__info__extra">This dropdown has para-clinical departments</p>
+        <p class="profile__info__extra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab commodi sint reiciendis? Placeat corporis magni sapiente commodi quis vitae tempora nulla quod ab dolor incidunt expedita sit voluptatum, deleniti veritatis.</p>
       </div>
      
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="dropdown1">
+        <button class="dropdown-toggle" type="button" id="dropdownMenuButton3" >
           Para-Clinical
         </button>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-          <li><a class="dropdown-item active" href="alert.html">Apathology</a></li>
+        <ul class="test show" id="test3">
+          <li><a class="dropdown-item" href="alert.html">Apathology</a></li>
           <li><a class="dropdown-item" href="alert.html">Microbiology</a></li>
           <li><a class="dropdown-item" href="alert.html">Pharmacology</a></li>
           <li><a class="dropdown-item" href="alert.html">FMT</a></li>
@@ -105,15 +159,15 @@
       <div class="profile__image"><img src="assets/pre-clinical.jpg" alt="Doggo"/></div>
       <div class="profile__info">
         <h3>Pre-Clinical</h3>
-        <p class="profile__info__extra">This dropdown has pre-clinical departments</p>
+        <p class="profile__info__extra">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis optio quibusdam corrupti. Quae, rem cumque voluptatem dolorum explicabo eum architecto odio assumenda maxime quis! Non impedit id quibusdam rem dicta.</p>
       </div>
      
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="dropdown1">
+        <button class="dropdown-toggle" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
           Pre-Clinical
         </button>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-          <li><a class="dropdown-item active" href="alert.html">Anatomy</a></li>
+        <ul class="test show" id="test4">
+          <li><a class="dropdown-item" href="alert.html">Anatomy</a></li>
           <li><a class="dropdown-item" href="alert.html">Biochem</a></li>
           <li><a class="dropdown-item" href="alert.html">Physiology</a></li>
            </ul>
@@ -123,14 +177,14 @@
       <div class="profile__image"><img src="assets/other.jfif" alt="Doggo"/></div>
       <div class="profile__info">
         <h3>Other</h3>
-        <p class="profile__info__extra">This dropdown has other departments</p>
+        <p class="profile__info__extra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, dignissimos fuga asperiores autem omnis sunt consequuntur nobis eaque explicabo ipsam optio ea non labore deleniti quo porro? Perspiciatis, accusantium eum.</p>
       </div>
      
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="dropdown1">
+        <button class="dropdown-toggle" type="button" id="dropdownMenuButton5" >
           Other
         </button>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <ul class="test show" id="test5">
           <li><a class="dropdown-item active" href="alert.html">Academic</a></li>
           <li><a class="dropdown-item" href="alert.html">Biomedical engineering</a></li>
           <li><a class="dropdown-item" href="alert.html">Biophysics</a></li>
@@ -157,27 +211,31 @@
     <div class="row">
       <div class="col-sm-12 col-md-6">
         <h6>About</h6>
-          <p class="text-justify"> We at <i>DEMARKED </i> provide a 2-way, encrypted messaging system with a feature of escalating alerts, enabling quick and efficient communication with your doctor-next-door!
-          </p>
+        <p class="text-justify">yo! <i>Hey losers</i> Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Officia nisi optio aperiam nulla a, aut, qui, quis iure delectus doloremque facilis velit 
+          sed voluptatibus quidem? Laborum aspernatur magnam saepe odio.</p>
       </div>
 
       <div class="col-xs-6 col-md-3">
         <h6>Categories</h6>
         <ul class="footer-links">
-          <li><a href="">1</a></li>
-          <li><a href="">2</a></li>
-          <li><a href="">3</a></li>
-          <li><a href="">4</a></li>
-          <li><a href="">5</a></li>
-          <li><a href="">6</a></li>
+          <li><a href="http://scanfcode.com/category/c-language/">1</a></li>
+          <li><a href="http://scanfcode.com/category/front-end-development/">2</a></li>
+          <li><a href="http://scanfcode.com/category/back-end-development/">3</a></li>
+          <li><a href="http://scanfcode.com/category/java-programming-language/">4</a></li>
+          <li><a href="http://scanfcode.com/category/android/">5</a></li>
+          <li><a href="http://scanfcode.com/category/templates/">6</a></li>
         </ul>
       </div>
 
       <div class="col-xs-6 col-md-3">
         <h6>Quick Links</h6>
         <ul class="footer-links">
-          <li><a href="">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="http://scanfcode.com/about/">About Us</a></li>
+          <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+          <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+          <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
         </ul>
       </div>
     </div>
@@ -186,8 +244,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
-          <a href="alert.html">DEMARKED</a>.
+        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+          <a href="alert.html">Scanfcode</a>.
         </p>
       </div>
 
@@ -202,10 +260,9 @@
     </div>
   </div>
 </footer>
-
+<script defer src="index.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="index.js"></script>
-      <script src="hello.js"></script>
+      
 
   </body>
 </html>
