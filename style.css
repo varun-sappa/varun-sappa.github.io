@@ -459,29 +459,12 @@ input.variation + label {
   background: var(--primaryShade5);
 }
 
-#dropdownMenuButton5{
-  position: relative;
-  left: 7rem;
+.dropdown{
+  left: 5rem;
   bottom: 1rem;
-}
+ 
+}   
 
-#dropdownMenuButton4{
-  position: relative;
-  left: 7rem;
-  bottom: 1rem;
-}
-
-#dropdownMenuButton3{
-  position: relative;
-  left: 7rem;
-  bottom: 1rem;
-}
-
-#dropdownMenuButton2{
-  position: relative;
-  left: 7rem;
-  bottom: 1rem;
-}
 
 
 
@@ -714,9 +697,8 @@ footer.dark, footer.dark a {
 
 .bi-caret-down-fill::before {
   content: "\f229";
-  line-height: 4.5rem;
+  line-height: 2.5rem;
 }
-
 
 .dropdown-item-test{
   visibility:hidden;
@@ -726,38 +708,3 @@ footer.dark, footer.dark a {
 .dropdown-item-test li{
   list-style: none;
 }
-
-.dropdown1 .test {
-  margin:0;padding:0;
-  list-style-type:none;
-  float:left;
-  position: absolute;
-  background: rgb(249, 247, 247);
-  width: 62%;
-}
-.show{
-  display: none;
-}
-
-
-.dropdown1 ul li{
-  position:relative;
-  margin:0 20px 0 0;
-  /* float:left; */
-}
-
-.dropdown1 ul li a {
-  padding:20px;
-  display:inline-block;
-  /* color:white; */
-  text-decoration:none;
-  color: rgb(20, 19, 19);
-}
-
-/* .dropdown1 ul li ul {
-  display:none;
-  position:absolute;
-  left:0;
-  background:#37bc9b;
-  float:left;
-} */
